@@ -1,0 +1,10 @@
+<h1>Lista miesięcy</h1>
+<ul>
+    <?php foreach ($this->wszystkie_miesiace as $i => $miesiac): ?>
+        <li>
+            Kolor: <?= $i ?>
+            :
+            <em style="color: <?= $i ?>"><?= $miesiac ?></em>
+        </li>
+    <?php endforeach ?>
+</ul>
